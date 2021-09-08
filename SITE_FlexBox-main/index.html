@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="./imagens/header.png"/></div>
+        <div id="ident"> <h1>Universal</h1></div>
+        <nav>
+			<ul>
+				<li a href="">Inicio</a></li>
+				<li a href="">Animes</a></li>
+				<li a href="">Minha lista</a></li>
+				<li a href="">Comunidade</a></li>
+			</ul>
+        </nav>
+        <div id="icon-menu"><img src="./imagens/menu.png" /></a></div>
+    </header>
+    <main>
+        <div id="titulo">
+            <p>Animes em alta</p>
+        </div>
+        </div>
+            <div><a href=""><img src="./imagens/demonslayer.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/naruto.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/blackclover.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/dagonball.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/kobayashi.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/onepiece.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/hunterxhunter.jpg" ></a></div>
+            <div><a href=""><img src="./imagens/kaguyasama.jpg" ></a></div>
+       </div>
+    </main>
+    <footer>
+        <p>Contatos e suporte</p>
+    </footer>
+</body>
+<script>
+	let nav=document.querySelector("nav")
+	nav.style.display="none"	
+	let icon=document.querySelector("#icon-menu")
+	icon.onclick=function(){
+		if(nav.style.display=="none")
+			nav.style.display="block"
+		else
+			nav.style.display="none"
+	}
+</script>
+</html>
